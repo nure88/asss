@@ -1,0 +1,143 @@
+ <!--  -->
+
+
+   <!-- Top Status Bar -->
+<div class="status-bar">
+  <div class="time">13:56</div>
+  <div class="battery">99% <i class="fa-solid fa-battery-full"></i></div>
+</div>
+
+<!-- Main Content -->
+<div class="main-content">
+  <!-- Card 1 -->
+  <div class="card">
+    <img src="./assets/emergency.png" alt="Emergency Icon" />
+    <h2>National Emergency Number</h2>
+    <div class="number">999</div>
+    <div class="description">Police, Fire & Ambulance</div>
+    <div class="service-type">All Services</div>
+    <div class="actions">
+      <button class="copy" onclick="copyNumber('999')"><i class="fa-solid fa-copy"></i> Copy</button>
+      <a href="tel:999"><button class="call"><i class="fa-solid fa-phone"></i> Call</button></a>
+    </div>
+  </div>
+
+  <!-- Card 2 -->
+  <div class="card">
+    <img src="./assets/police.png" alt="Police Icon" />
+    <h2>Police Helpline</h2>
+    <div class="number">100</div>
+    <div class="description">Police Emergency Help</div>
+    <div class="service-type">Law & Order</div>
+    <div class="actions">
+      <button class="copy" onclick="copyNumber('100')"><i class="fa-solid fa-copy"></i> Copy</button>
+      <a href="tel:100"><button class="call"><i class="fa-solid fa-phone"></i> Call</button></a>
+    </div>
+  </div>
+
+  <!-- Card 3 -->
+  <div class="card">
+    <img src="./assets/ambulance.png" alt="Ambulance Icon" />
+    <h2>Ambulance Service</h2>
+    <div class="number">102</div>
+    <div class="description">Medical Emergency</div>
+    <div class="service-type">Health</div>
+    <div class="actions">
+      <button class="copy" onclick="copyNumber('102')"><i class="fa-solid fa-copy"></i> Copy</button>
+      <a href="tel:102"><button class="call"><i class="fa-solid fa-phone"></i> Call</button></a>
+    </div>
+  </div>
+
+  <!-- Card 4 -->
+  <div class="card">
+    <img src="./assets/fire.png" alt="Fire Icon" />
+    <h2>Fire Service</h2>
+    <div class="number">101</div>
+    <div class="description">Fire Emergency Help</div>
+    <div class="service-type">Fire</div>
+    <div class="actions">
+      <button class="copy" onclick="copyNumber('101')"><i class="fa-solid fa-copy"></i> Copy</button>
+      <a href="tel:101"><button class="call"><i class="fa-solid fa-phone"></i> Call</button></a>
+    </div>
+  </div>
+
+  <!-- Card 5 -->
+  <div class="card">
+    <img src="./assets/disaster.png" alt="Disaster Icon" />
+    <h2>Disaster Helpline</h2>
+    <div class="number">109</div>
+    <div class="description">Disaster Management</div>
+    <div class="service-type">All Services</div>
+    <div class="actions">
+      <button class="copy" onclick="copyNumber('109')"><i class="fa-solid fa-copy"></i> Copy</button>
+      <a href="tel:109"><button class="call"><i class="fa-solid fa-phone"></i> Call</button></a>
+    </div>
+  </div>
+
+  <!-- Card 6 -->
+  <div class="card">
+    <img src="./assets/child.png" alt="Child Icon" />
+    <h2>Child Helpline</h2>
+    <div class="number">1098</div>
+    <div class="description">Child Emergency</div>
+    <div class="service-type">Child</div>
+    <div class="actions">
+      <button class="copy" onclick="copyNumber('1098')"><i class="fa-solid fa-copy"></i> Copy</button>
+      <a href="tel:1098"><button class="call"><i class="fa-solid fa-phone"></i> Call</button></a>
+    </div>
+  </div>
+
+  <!-- Card 7 -->
+  <div class="card">
+    <img src="./assets/women.png" alt="Women Icon" />
+    <h2>Women's Helpline</h2>
+    <div class="number">1091</div>
+    <div class="description">Women Emergency</div>
+    <div class="service-type">Women</div>
+    <div class="actions">
+      <button class="copy" onclick="copyNumber('1091')"><i class="fa-solid fa-copy"></i> Copy</button>
+      <a href="tel:1091"><button class="call"><i class="fa-solid fa-phone"></i> Call</button></a>
+    </div>
+  </div>
+
+  <!-- Card 8 -->
+  <div class="card">
+    <img src="./assets/senior.png" alt="Senior Icon" />
+    <h2>Senior Citizen Helpline</h2>
+    <div class="number">14567</div>
+    <div class="description">Senior Citizen Support</div>
+    <div class="service-type">Seniors</div>
+    <div class="actions">
+      <button class="copy" onclick="copyNumber('14567')"><i class="fa-solid fa-copy"></i> Copy</button>
+      <a href="tel:14567"><button class="call"><i class="fa-solid fa-phone"></i> Call</button></a>
+    </div>
+  </div>
+
+  <!-- Card 9 -->
+  <div class="card">
+    <img src="./assets/disability.png" alt="Disability Icon" />
+    <h2>Disability Helpline</h2>
+    <div class="number">1800</div>
+    <div class="description">Disabled Support</div>
+    <div class="service-type">Disability</div>
+    <div class="actions">
+      <button class="copy" onclick="copyNumber('1800')"><i class="fa-solid fa-copy"></i> Copy</button>
+      <a href="tel:1800"><button class="call"><i class="fa-solid fa-phone"></i> Call</button></a>
+    </div>
+  </div>
+</div>
+
+<script>
+function copyNumber(number) {
+  navigator.clipboard.writeText(number);
+  alert(number + " copied to clipboard!");
+}
+</script>
+
+
+
+
+
+
+
+
