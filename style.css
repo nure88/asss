@@ -246,3 +246,32 @@ height: 1.5rem;
          justify-content: center;
          align-items: center;
         }
+
+        /* police container */
+        .police-container{
+           width: 3.75rem;
+           height: 3.75rem;
+           border-radius: 16rem;
+           background: rgba(223, 239, 255, 1);
+        }
+        .police-continer-img{
+            height: 2rem;
+            width: 2rem;
+          
+        }
+        /* heart-icon */
+        .heart-icon{
+         width: 1.5rem;
+         height: 1.5rem;
+        }
+        /* "ambulance-img-container */
+        .ambulance-img-container{
+            width: 3.75rem;
+            height: 3.75rem;
+            border-radius: 16rem;
+            background-color: rgba(255, 227, 226);
+              }
+              .ambulance-img{ 
+               width: 2rem;
+               height: 2rem;
+              }
