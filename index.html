@@ -290,5 +290,53 @@
 
       </div>
       
+      <!--Call History -->
+  
+<div class="bg-white shadow-md rounded-2xl p-6 sm:px-10">
+  <div class="flex justify-between items-center mb-4 sm:gap-x-10">
+    <div class="grid grid-cols-3 sm:gap-x-5">
+      <!-- Icon -->
+      <div class="flex justify-center items-center bg-gray-600 rounded-full w-12 h-12">
+        <i class="fa-solid fa-angle-up text-2xl rotate-210 text-white"></i>
+      </div>
+
+      <!-- Title -->
+      <div class="gap-x-3.5">
+        <h2 class="font-bold text-lg flex">Call History</h2>
+      </div>
+
+      <!-- Clear Button -->
+      <div>
+        <button id="clearHistoryBtn" 
+          class="px-4 py-1 bg-green-500 text-white text-sm rounded-xl hover:bg-green-600">
+          Clear
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- History List -->
+  <ul class="space-y-3 text-sm text-gray-700" id="historyList">
+    <li class="flex justify-between border-b pb-2">
+      <span>Fire Service Number</span>
+      <span class="text-gray-500">10:56 AM</span>
+    </li>
+    <li class="flex justify-between border-b pb-2">
+      <span>National Emergency</span>
+      <span class="text-gray-500">10:56 AM</span>
+    </li>
+    <li class="flex justify-between border-b pb-2">
+      <span>Bangladesh Railway</span>
+      <span class="text-gray-500">10:56 AM</span>
+    </li>
+    <li class="flex justify-between">
+      <span>Anti-Corruption</span>
+      <span class="text-gray-500">10:56 AM</span>
+    </li>
+  </ul>
+</div>
+
+
+<script src="./app.js"></script>
 </body>
 </html>
